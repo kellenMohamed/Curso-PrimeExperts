@@ -1,0 +1,20 @@
+Python:
+
+echo %PATH% (executar no cmd para ver a variavel de ambiente)
+python --version
+
+*** Passos Instalação: ***
+1. instala o python e check a opção add ao path, aba 2 seleciona tudo, aba 3 tudo menos as duas ultimas opções de download.
+2. pip install -U robotframework (executar no cmd)
+	Se necessário faça o update: c:\users\fernke02\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip
+	Se necessário: python -m pip install robotframework
+	Se der erro de certificado:
+		Crie um arquivo no desktop requirements.txt e coloque o comando robotframework==4.0.1 e no cmd executa: pip install -r requirements.txt
+3. Instale o VS Code.
+4. Adicione no VS Code a extensão "Robot Framework Language Server", "Material Icon Theme" e "GitLens — Git supercharged"
+5. Instale a última versão do GIT na máquina.
+
+
+*** Comandos: ***
+
+Opend Browser https://www.facebook.com/ firefox
