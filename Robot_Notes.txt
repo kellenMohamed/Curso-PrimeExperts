@@ -17,4 +17,21 @@ python --version
 
 *** Comandos: ***
 
+Use tab sempre
+
 Opend Browser https://www.facebook.com/ firefox
+
+*** Settings ***
+
+Documentation (+ tab)-> Usada para colocar a descrição do que será realizado.
+use ... para continuar o texto na linha de baixo
+
+*** Para executar o robot dentro do terminal do VS:
+robot tests/exercicios.robot
+python -m robot caminhoDoTeste (qdo o comando acima não executa)
+
+* Quando se quer imprimir um cenário específico:
+ robot -i TESTE  testes/Exercicio.robot
+
+* Qdo quer salvar o log em uma pasta específica:
+robot -d ./logs

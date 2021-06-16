@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 19:35:55.355" rpa="false" schemaversion="2">
+<suite id="s1" name="Exercicio" source="C:\GIT\Robot\Curso-PrimeExperts\testes\Exercicio.robot">
+<test id="s1-t1" name="Cenario: Imprimir o Dicinário">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<msg timestamp="20210615 19:35:55.405" level="FAIL">Resolving variable '${PESSOA.nome}' failed: AttributeError: 'str' object has no attribute 'nome'</msg>
+<status status="FAIL" starttime="20210615 19:35:55.404" endtime="20210615 19:35:55.405"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210615 19:35:55.405" endtime="20210615 19:35:55.406"/>
+</kw>
+<status status="FAIL" starttime="20210615 19:35:55.403" endtime="20210615 19:35:55.407">Resolving variable '${PESSOA.nome}' failed: AttributeError: 'str' object has no attribute 'nome'</status>
+</test>
+<doc>Aqui estarão todos os exercícios do Prime Experts
+focado em Imersão com Robot Framework</doc>
+<status status="FAIL" starttime="20210615 19:35:55.358" endtime="20210615 19:35:55.409"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Exercicio">Exercicio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
