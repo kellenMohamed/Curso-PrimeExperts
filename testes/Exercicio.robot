@@ -62,8 +62,6 @@ Cenario: Realizar Somar - exemplo 2
     Log To Console  ${RESULTADO}
 
 
-*** Keywords ***
-
 # A Keyword abaixo recebe os argumentos, usa os mesmos em variáveis e retorna o resultado na variavel SOMA: 
 Somar dois numeros
     [Arguments]     ${NUM_A}    ${NUM_B}

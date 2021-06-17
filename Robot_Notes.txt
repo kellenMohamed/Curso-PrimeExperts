@@ -35,3 +35,26 @@ python -m robot caminhoDoTeste (qdo o comando acima não executa)
 
 * Qdo quer salvar o log em uma pasta específica:
 robot -d ./logs
+
+robot -d ./results	testes/ExercicioAula2.robot
+
+*** Para instalar o selenium pro robot: ***
+
+pip install -U robotframework-seleniumlibrary
+
+pip install --trusted-host robotframework-seleniumlibrary
+
+isntalar a extensão truepath
+
+**** Inspecionar um elemento na Tela: ****
+X-Path:  xpath=//*[@id="block_top_menu"]/ul
+
+*** Para incluir o PATH: ***
+
+Library             OperatingSystem
+*** Keywords ***
+    Append To Environment Variable  PATH     ${EXECDIR}/chromedriver/chromedriver.exe
+    Log To Console      %{PATH}
+ou
+    Set Environment Variable    webdriver.chrome.driver     ${EXECDIR}/chromedriver/chromedriver.exe
+
